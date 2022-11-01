@@ -49,6 +49,7 @@ app.get('/api/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
   });
 
+
 app.post('/api/notes', (req, res) => {
   console.info(`${req.method} Post Successful`);
   console.log(`${req.body}`)
@@ -58,7 +59,7 @@ app.post('/api/notes', (req, res) => {
     const newNote = {
       title,
       text,
-      note_id: uuid()
+      id: uuid()
     };
 
     readAndAppend(newNote, './db/db.json');
