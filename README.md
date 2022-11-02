@@ -1,15 +1,37 @@
-# Note Taker Starter Code
+# Note Taker
 
-todo: 
-- ~~require express~~
-- add middleware, 
-- ~~connect index and notes html,~~
-- updates routs to express routes
-- GET /notes should return notes.html
-- GET * should return index.html
-- use GET /api/notes to read db.json
-- use POST /api/notes to add a new note to db.json (add objects to the db array)
-- deploy application to heroku
+## Description
 
-bonus:
-- add a way to delete notes using DELETE /api/notes/:id
+This app allows users to write, save, recall (and possibly delete) notes.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+N/A
+
+## Usage
+
+clicking the 'get started' button will take the user to the notes page where they will be able to write notes in the empty text areas provided, save notes by clicking the save button(save button only appears when text is entered into text area), and view previous notes by clicking their titles in the left hand column.
+
+![get started page](./public/assets/images/note-taker-capture.JPG)
+
+![notes page](./public/assets/images/note-taker-p2-capture.JPG)
+
+Deployed link: https://nameless-tundra-15651.herokuapp.com/
+
+## Credits
+Bryan Dalton
+
+bryantdalton19@gmail.com
+
+https://github.com/Bryandalton
+
+## License
+
+N/A
